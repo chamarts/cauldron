@@ -1,1 +1,3 @@
-#Cauldron - Another simple ETL tool in Python
+#Cauldron - Another ETL tool in python
+
+# Architecture
