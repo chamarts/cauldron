@@ -6,7 +6,7 @@ from dmp.assets.metainfo import MetaInfo
 class DBSinkTest(unittest.TestCase):
 
     def test_sink(self):
-        url = 'postgresql+psycopg2://dmp:dmp@ch3lxesgdi08.corp.equinix.com:5432/dmp2'
+        url = 'postgresql+psycopg2://dmp:dmp@tt:5432/dmp2'
         db_conn = DBConnection(dbUrl=url)
         table_name = "asset_xa"
         DBSink(dbConn=db_conn,
