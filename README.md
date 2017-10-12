@@ -1,3 +1,7 @@
 #Cauldron - Another ETL tool in python
 
-# Architecture
+# Design & Architecture
+
+<p align="center">
+  <img src="Workflow%20Diagram.jpg" width="350"/>
+</p>
